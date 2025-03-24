@@ -34,10 +34,9 @@ kuhl-haus-bedrock-app
 =====================
 
 
-    Add a short description here!
+Application layer abstraction for integrating with AWS bedrock APIs
 
-
-A longer description of your project goes here...
+... more to come!
 
 
 .. _pyscaffold-notes:
