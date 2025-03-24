@@ -4,7 +4,7 @@ build-backend = "pdm.backend"
 
 [project]
 name = "kuhl-haus-bedrock-app"
-version = "0.2.0"
+version = "0.2.1"
 description = "Application layer abstraction for integrating with AWS bedrock APIs"
 authors = [
     { name = "Tom Pounders", email = "git@oldschool.engineer" },
@@ -17,7 +17,7 @@ classifiers = [
     "Programming Language :: Python"
 ]
 dependencies = [
-    "kuhl-haus-metrics @ git+https://github.com/kuhl-haus/kuhl-haus-metrics.git@v0.2.0",
+    "kuhl-haus-metrics @ git+https://github.com/kuhl-haus/kuhl-haus-metrics.git@v0.2.1",
     "attrs",
     "boto3~=1.37.5",
     "botocore~=1.37.18",
