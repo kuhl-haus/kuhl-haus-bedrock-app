@@ -17,7 +17,7 @@ classifiers = [
     "Programming Language :: Python"
 ]
 dependencies = [
-    "kuhl-haus-metrics~=0.2.2",
+    "kuhl-haus-metrics==0.2.3",
     "attrs",
     "boto3~=1.37.5",
     "botocore~=1.37.18",
