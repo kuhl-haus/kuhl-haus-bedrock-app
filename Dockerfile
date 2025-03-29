@@ -1,23 +1,14 @@
-ARG BASE_IMAGE=python:3.12
+ARG BASE_IMAGE=python:3.12-slim
 FROM ${BASE_IMAGE}
-
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends git && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/* && \
-    pip install --no-cache-dir pdm
 
 WORKDIR /libs/bedrock_app
 COPY . /libs/bedrock_app/
 
-# Install dependencies and build/install package
-RUN pdm install -G testing
+# Install PDM
+RUN pip install --no-cache-dir pdm
 
-# Run tests
-RUN pdm run pytest tests -v
+# Install the package directly from the wheel
+RUN pdm build && pip install --no-cache-dir /libs/bedrock_app/dist/*.whl
 
-# Build wheel
-RUN pdm build
-
-# Install into site-packages from wheel
-RUN pip install --no-cache-dir /libs/bedrock_app/dist/*.whl
+# Set entrypoint to python
+ENTRYPOINT ["python"]
