@@ -10,9 +10,6 @@
     .. image:: https://img.shields.io/coveralls/github/<USER>/kuhl-haus-bedrock-app/main.svg
         :alt: Coveralls
         :target: https://coveralls.io/r/<USER>/kuhl-haus-bedrock-app
-    .. image:: https://img.shields.io/pypi/v/kuhl-haus-bedrock-app.svg
-        :alt: PyPI-Server
-        :target: https://pypi.org/project/kuhl-haus-bedrock-app/
     .. image:: https://img.shields.io/conda/vn/conda-forge/kuhl-haus-bedrock-app.svg
         :alt: Conda-Forge
         :target: https://anaconda.org/conda-forge/kuhl-haus-bedrock-app
@@ -23,6 +20,9 @@
         :alt: Twitter
         :target: https://twitter.com/kuhl-haus-bedrock-app
 
+.. image:: https://img.shields.io/pypi/v/kuhl-haus-bedrock-app.svg
+    :alt: PyPI-Server
+    :target: https://pypi.org/project/kuhl-haus-bedrock-app/
 .. image:: https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold
     :alt: Project generated with PyScaffold
     :target: https://pyscaffold.org/
