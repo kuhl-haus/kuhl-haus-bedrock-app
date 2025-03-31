@@ -6,18 +6,18 @@
 [![Monthly Downloads](https://pepy.tech/badge/kuhl-haus-bedrock-app/month)](https://pepy.tech/project/kuhl-haus-bedrock-app)
 -->
 
-[![PyPI-Server](https://img.shields.io/pypi/v/kuhl-haus-bedrock-app.svg)](https://pypi.org/project/kuhl-haus-bedrock-app/)
-[![Project generated with PyScaffold](https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold)](https://pyscaffold.org/)
+[![License](https://img.shields.io/github/license/kuhl-haus/kuhl-haus-bedrock-app)](https://github.com/kuhl-haus/kuhl-haus-bedrock-app/blob/mainline/LICENSE.txt)
+[![PyPI](https://img.shields.io/pypi/v/kuhl-haus-bedrock-app.svg)](https://pypi.org/project/kuhl-haus-bedrock-app/)
+[![Build Status](https://github.com/kuhl-haus/kuhl-haus-bedrock-app/actions/workflows/publish-to-pypi.yml/badge.svg)](https://github.com/kuhl-haus/kuhl-haus-bedrock-app/actions/workflows/publish-to-pypi.yml)
+[![CodeQL](https://github.com/kuhl-haus/kuhl-haus-bedrock-app/workflows/CodeQL/badge.svg)](https://github.com/kuhl-haus/kuhl-haus-bedrock-app/workflows/CodeQL/)
+[![codecov](https://codecov.io/gh/kuhl-haus/kuhl-haus-bedrock-app/branch/mainline/graph/badge.svg)](https://codecov.io/gh/kuhl-haus/kuhl-haus-bedrock-app)
+[![GitHub issues](https://img.shields.io/github/issues/kuhl-haus/kuhl-haus-bedrock-app)](https://github.com/kuhl-haus/kuhl-haus-bedrock-app/issues)
+[![Downloads](https://static.pepy.tech/badge/kuhl-haus-bedrock-app/month)](https://pepy.tech/project/kuhl-haus-bedrock-app)
 
 # kuhl-haus-bedrock-app
 
 Application layer abstraction for integrating with AWS bedrock APIs
 
 ... more to come!
-
-## Note
-
-This project has been set up using PyScaffold 4.6. For details and usage
-information on PyScaffold see https://pyscaffold.org/.
 
 
