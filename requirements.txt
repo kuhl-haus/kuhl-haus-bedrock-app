@@ -23,7 +23,7 @@ typing-inspect
 typing_extensions
 urllib3
 importlib_metadata~=8.6.1
-setuptools~=76.1.0
+setuptools~=78.1.0
 pydantic~=2.10.6
 numpy~=2.2.4
 requests~=2.32.3
