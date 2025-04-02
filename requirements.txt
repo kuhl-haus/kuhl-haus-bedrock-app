@@ -6,7 +6,7 @@ dataclasses
 dataclasses-json
 dnspython
 exceptiongroup
-fastapi~=0.115.11
+fastapi~=0.115.12
 iniconfig
 jmespath
 marshmallow
