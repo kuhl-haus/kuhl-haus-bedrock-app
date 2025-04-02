@@ -1,5 +1,5 @@
 attrs
-boto3~=1.37.5
+boto3~=1.37.26
 botocore~=1.37.18
 colorama
 dataclasses
