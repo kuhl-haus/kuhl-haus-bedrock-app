@@ -11,7 +11,7 @@ httpx~=0.28.1
 importlib_metadata
 iniconfig
 jmespath
-kuhl-haus-metrics
+kuhl-haus-metrics==0.2.6
 marshmallow
 marshmallow-enum
 mypy-extensions
