@@ -22,7 +22,8 @@ We generally support:
 
 If you believe you've found a security-related bug, we prefer that you fill out a [vulnerability report on GitHub](https://github.com/kuhl-haus/kuhl-haus-bedrock-app/security/advisories/new) directly.  
 
-If you do not have a GitHub account, you may submit your report via email to `security` at `kuhl.haus` using our [PGP key](#pgp-key).  **UNENCRYPTED emails from UNVERIFIED senders are AUTOMATICALLY REJECTED.**
+If you do not have a GitHub account, you may submit your report via email to `security` at `kuhl.haus` using our [PGP key](#pgp-key).  **UNENCRYPTED emails from UNVERIFIED senders are AUTOMATICALLY REJECTED.**  
+
 Include the following details:
    - Description of the vulnerability
    - Steps to reproduce
