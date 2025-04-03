@@ -4,7 +4,7 @@ build-backend = "pdm.backend"
 
 [project]
 name = "kuhl-haus-bedrock-app"
-version = "0.2.6"
+version = "0.2.7"
 description = "Application layer abstraction for integrating with AWS bedrock APIs"
 authors = [
     { name = "Tom Pounders", email = "git@oldschool.engineer" },
