@@ -4,7 +4,7 @@ build-backend = "pdm.backend"
 
 [project]
 name = "kuhl-haus-bedrock-app"
-version = "0.2.7"
+version = "0.2.8"
 description = "Application layer abstraction for integrating with AWS bedrock APIs"
 authors = [
     { name = "Tom Pounders", email = "git@oldschool.engineer" },
@@ -42,7 +42,7 @@ dependencies = [
     "typing-extensions",
     "urllib3",
     "importlib-metadata~=8.6.1",
-    "pydantic~=2.10.6",
+    "pydantic~=2.11.1",
     "numpy~=2.2.4",
     "requests~=2.32.3",
     "tiktoken~=0.9.0",
