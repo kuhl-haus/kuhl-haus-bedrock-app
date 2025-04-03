@@ -7,6 +7,7 @@ dataclasses-json
 dnspython
 exceptiongroup
 fastapi
+httpx~=0.28.1
 importlib_metadata
 iniconfig
 jmespath
@@ -20,11 +21,13 @@ pdm
 pluggy
 pydantic
 pytest
+pytest-asyncio~=0.26.0
 python-dateutil
 requests
 s3transfer
 setuptools
 six
+starlette~=0.46.1
 tiktoken
 tomli
 typing-inspect
