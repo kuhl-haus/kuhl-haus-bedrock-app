@@ -56,7 +56,7 @@ We follow a **coordinated disclosure** process:
 ## Security Best Practices Used in This Project
 
 - **Automated Security Testing**: All commits to the mainline branch undergo [automated CodeQL scanning](https://github.com/kuhl-haus/kuhl-haus-bedrock-app/actions/workflows/github-code-scanning/codeql).
-- **Regular Dependency Updates**: We use Dependabot automation to keep dependencies updated.
+- **Regular Dependency Updates**: We use Dependabot automation to keep dependencies updated. [Dependabot Updates](https://github.com/kuhl-haus/kuhl-haus-bedrock-app/actions/workflows/dependabot/dependabot-updates)
 - **Supply Chain Security**: We sign releases, use artifact verification, and publish to PyPI with a [Trusted Publisher](https://docs.pypi.org/trusted-publishers/).
 
 ## PGP Key
