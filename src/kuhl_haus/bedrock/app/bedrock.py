@@ -47,7 +47,7 @@ from kuhl_haus.bedrock.app.schema import (
     Embedding,
 )
 
-logger = get_logger('bedrock_models', LOG_LEVEL)
+logger = get_logger(LOG_LEVEL, 'bedrock_models')
 
 config = Config(
     region_name=AWS_REGION,
