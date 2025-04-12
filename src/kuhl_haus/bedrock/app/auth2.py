@@ -1,3 +1,5 @@
+import traceback
+import sys
 from typing import Annotated
 
 from fastapi import Depends, HTTPException, status
@@ -15,6 +17,7 @@ def api_key_auth(credentials: Annotated[HTTPAuthorizationCredentials, Depends(se
         if credentials_are_valid:
             return
     except Exception as e:
-        print(e)
+        exc_type, exc_value, exc_traceback = sys.exc_info()
+        traceback.print_exception(exc_type, exc_value, exc_traceback, limit=2, file=sys.stderr)
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Validation error")
     raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid credentials")
